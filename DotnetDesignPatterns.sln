@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Factory Pattern(工厂模式)", "01.Factory Pattern(工厂模式)", "{6F20499C-66F5-48C3-B4EB-D43347750F04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "说明", "说明", "{E6CF608A-2CD1-4626-B331-80CFD6DBF64A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Creational Patterns（创建型模式）", "1-Creational Patterns（创建型模式）", "{142E94C8-A935-486E-A590-C0D895D820A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{5DB58914-EAEF-4304-8758-BEEF85262609}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DB58914-EAEF-4304-8758-BEEF85262609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB58914-EAEF-4304-8758-BEEF85262609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB58914-EAEF-4304-8758-BEEF85262609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB58914-EAEF-4304-8758-BEEF85262609}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F20499C-66F5-48C3-B4EB-D43347750F04} = {142E94C8-A935-486E-A590-C0D895D820A9}
+		{5DB58914-EAEF-4304-8758-BEEF85262609} = {6F20499C-66F5-48C3-B4EB-D43347750F04}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D925921-D271-4A0E-94F1-35E2259CA60D}
+	EndGlobalSection
+EndGlobal
