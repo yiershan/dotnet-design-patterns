@@ -5,6 +5,27 @@ using System.Text;
 namespace FactoryPattern
 {
     /// <summary>
+    /// 简单工厂，和工厂模式对比用
+    /// </summary>
+    public class EasyFactory
+    {
+        // 简单工厂，根据字符串创建相应的对象
+        public static Product CreateProduct(String name)
+        {
+
+            switch (name)
+            {
+                case "A":
+                    return new ProductA();
+                case "B":
+                    return new ProductB();
+                default:
+                    throw new Exception("产品不存在！");
+            }
+        }
+    }
+
+    /// <summary>
     /// 抽象的工厂角色
     /// </summary>
     public abstract class Factory

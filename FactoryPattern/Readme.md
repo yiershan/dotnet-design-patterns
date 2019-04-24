@@ -8,66 +8,6 @@
 　　将创建子类的责任抽象出来的好处是允许Client完全无需考虑依赖类是如何创建的，这遵守依赖倒置原则（Dependency Inversion Principle，DIP）。Factory Method模式另外一个好处是把负责对象创建的代码集中起来，如果需要修改对象生成方式，可以轻松定位并更新，而不会影响到依赖它的代码。
 
 　　在面向对象编程中，一般方法是用一个new操作符产生一个对象的实例。但是在一些情况下，用new操作符直接生成对象会带来一些问题。首先，要使用new运算符创建一个对象必须清楚所要创建的对象的类信息，包括类名、构造函数等，而有时并不现实。其次许多类型的对象创建需要一系列的步骤，可能需要计算或取得对象的初始设置，选择生成那个子对象实例，或在生成需要的对象之前必须生成一些辅助功能的对象。在这些情况下，新对象的建立就是一个过程，而不是一个简单的操作。为轻松方便地完成复杂对象的创建，从而引入了工厂模式。
-##  C#例子
-
-```
-    public abstract class Product
-    {
-        public abstract string GetName();
-    }
-
-    public class ProductA : Product
-    {
-        public override string GetName()
-        {
-            return "我是A产品！";
-        }
-    }
-    public class ProductB:Product
-    {
-        public override string GetName()
-        {
-            return "我是B产品！";
-        }
-    }
-
-    public abstract class Factory
-    {
-        public abstract Product CreateProduct();
-    }
-    public class FactoryA : Factory
-    {
-        public override Product CreateProduct()
-        {
-            return new ProductA();
-        }
-    }
-    public class FactoryB : Factory
-    {
-        public override Product CreateProduct()
-        {
-            return new ProductB();
-        }
-    }
-
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Factory[] factories = new Factory[2];
-
-            factories[0] = new FactoryA();
-            factories[1] = new FactoryB();
-
-            foreach (var factory in factories)
-            {
-                Product product = factory.CreateProduct();
-                Console.WriteLine(product.GetName());
-            }
-            Console.ReadLine();
-        }
-    }
-```
 
 ## 工厂方法模式参与者：
 
