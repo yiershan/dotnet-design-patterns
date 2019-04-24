@@ -24,11 +24,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Builder Pattern(建造�
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.Prototype Pattern(原型模式)", "05.Prototype Pattern(原型模式)", "{897D6077-E47D-45D5-9E16-FE3E91D34035}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletionPattern", "SingletionPattern\SingletionPattern.csproj", "{A2445396-72DE-4F84-A3F0-A5263B199B3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletionPattern", "SingletionPattern\SingletionPattern.csproj", "{A2445396-72DE-4F84-A3F0-A5263B199B3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{69BE7E56-2D5C-400F-AC24-B602F96ACA05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{69BE7E56-2D5C-400F-AC24-B602F96ACA05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypePattern", "PrototypePattern\PrototypePattern.csproj", "{17254405-6035-4474-BC75-49A158770B8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypePattern", "PrototypePattern\PrototypePattern.csproj", "{17254405-6035-4474-BC75-49A158770B8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Structural Patterns(结构型模式)", "2-Structural Patterns(结构型模式)", "{AAF4CE2C-0FBC-4801-A764-24D218B822AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.Adapter Pattern(适配器模式)", "06.Adapter Pattern(适配器模式)", "{CB58162D-DA3D-47AA-AE5F-2A1C62D02ED9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07.Bridge Pattern(桥接模式)", "07.Bridge Pattern(桥接模式)", "{AB8ECC07-7CFC-432B-B3D7-39CE65E5424C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08.Decorator Pattern(装饰器模式)", "08.Decorator Pattern(装饰器模式)", "{FA270A73-3BBB-455E-9399-5CF7DE6D2F60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{AA26A63C-0899-4F29-B72C-0898BA48DA8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{0A31D05B-D4F2-4E07-9FF0-FC17A1BDC93E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,6 +68,14 @@ Global
 		{17254405-6035-4474-BC75-49A158770B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17254405-6035-4474-BC75-49A158770B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17254405-6035-4474-BC75-49A158770B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA26A63C-0899-4F29-B72C-0898BA48DA8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA26A63C-0899-4F29-B72C-0898BA48DA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA26A63C-0899-4F29-B72C-0898BA48DA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA26A63C-0899-4F29-B72C-0898BA48DA8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A31D05B-D4F2-4E07-9FF0-FC17A1BDC93E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A31D05B-D4F2-4E07-9FF0-FC17A1BDC93E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A31D05B-D4F2-4E07-9FF0-FC17A1BDC93E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A31D05B-D4F2-4E07-9FF0-FC17A1BDC93E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,6 +91,11 @@ Global
 		{A2445396-72DE-4F84-A3F0-A5263B199B3F} = {18C370CF-4920-4BF4-BBD1-474C6E3D1DA1}
 		{69BE7E56-2D5C-400F-AC24-B602F96ACA05} = {4C629E90-66A2-4C94-82BC-A5CA0FCB8215}
 		{17254405-6035-4474-BC75-49A158770B8A} = {897D6077-E47D-45D5-9E16-FE3E91D34035}
+		{CB58162D-DA3D-47AA-AE5F-2A1C62D02ED9} = {AAF4CE2C-0FBC-4801-A764-24D218B822AA}
+		{AB8ECC07-7CFC-432B-B3D7-39CE65E5424C} = {AAF4CE2C-0FBC-4801-A764-24D218B822AA}
+		{FA270A73-3BBB-455E-9399-5CF7DE6D2F60} = {AAF4CE2C-0FBC-4801-A764-24D218B822AA}
+		{AA26A63C-0899-4F29-B72C-0898BA48DA8A} = {CB58162D-DA3D-47AA-AE5F-2A1C62D02ED9}
+		{0A31D05B-D4F2-4E07-9FF0-FC17A1BDC93E} = {AB8ECC07-7CFC-432B-B3D7-39CE65E5424C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4D925921-D271-4A0E-94F1-35E2259CA60D}
