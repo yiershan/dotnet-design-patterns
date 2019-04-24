@@ -5,9 +5,9 @@
 > 创建型模式关注对象的创建过程
 - 01.Factory Pattern(工厂模式)
 - 02.Abstract Factory（抽象工厂模式）
-- 03.Singleton(单例模式)
-- 04建造者模式
-- 05原型模式
+- 03.Singletion Pattern(单例模式)
+- 04.Builder Pattern(建造者模式)
+- 05.Prototype Pattern(原型模式)
 
 ## 2.结构型模式
 > 结构型模式关注对象和类的组织

@@ -18,13 +18,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Abstract Factory（抽�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{662D936C-F4B9-438C-9662-43FA7DDFBBFD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Singleton(单例模式)", "03.Singleton(单例模式)", "{18C370CF-4920-4BF4-BBD1-474C6E3D1DA1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Singletion Pattern(单例模式)", "03.Singletion Pattern(单例模式)", "{18C370CF-4920-4BF4-BBD1-474C6E3D1DA1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Builder Pattern(建造者模式)", "04.Builder Pattern(建造者模式)", "{4C629E90-66A2-4C94-82BC-A5CA0FCB8215}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.Prototype Pattern(原型模式)", "05.Prototype Pattern(原型模式)", "{897D6077-E47D-45D5-9E16-FE3E91D34035}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletionPattern", "SingletionPattern\SingletionPattern.csproj", "{A2445396-72DE-4F84-A3F0-A5263B199B3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{69BE7E56-2D5C-400F-AC24-B602F96ACA05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +46,10 @@ Global
 		{A2445396-72DE-4F84-A3F0-A5263B199B3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2445396-72DE-4F84-A3F0-A5263B199B3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2445396-72DE-4F84-A3F0-A5263B199B3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69BE7E56-2D5C-400F-AC24-B602F96ACA05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69BE7E56-2D5C-400F-AC24-B602F96ACA05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69BE7E56-2D5C-400F-AC24-B602F96ACA05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69BE7E56-2D5C-400F-AC24-B602F96ACA05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{4C629E90-66A2-4C94-82BC-A5CA0FCB8215} = {142E94C8-A935-486E-A590-C0D895D820A9}
 		{897D6077-E47D-45D5-9E16-FE3E91D34035} = {142E94C8-A935-486E-A590-C0D895D820A9}
 		{A2445396-72DE-4F84-A3F0-A5263B199B3F} = {18C370CF-4920-4BF4-BBD1-474C6E3D1DA1}
+		{69BE7E56-2D5C-400F-AC24-B602F96ACA05} = {4C629E90-66A2-4C94-82BC-A5CA0FCB8215}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4D925921-D271-4A0E-94F1-35E2259CA60D}
