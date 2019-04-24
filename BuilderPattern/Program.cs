@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Text;
 
 namespace BuilderPattern
 {
@@ -18,7 +17,6 @@ namespace BuilderPattern
                 .Build();
             Console.WriteLine(people2.Show());
             Console.ReadLine();
-            StringBuilder
         }
     }
 }
