@@ -38,9 +38,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07.Bridge Pattern(桥接模
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08.Decorator Pattern(装饰器模式)", "08.Decorator Pattern(装饰器模式)", "{FA270A73-3BBB-455E-9399-5CF7DE6D2F60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{AA26A63C-0899-4F29-B72C-0898BA48DA8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{AA26A63C-0899-4F29-B72C-0898BA48DA8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{0A31D05B-D4F2-4E07-9FF0-FC17A1BDC93E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{0A31D05B-D4F2-4E07-9FF0-FC17A1BDC93E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09.Composite Pattern(组合模式)", "09.Composite Pattern(组合模式)", "{087CF442-C069-4781-9743-6AB71EF4C189}"
 EndProject
@@ -52,7 +52,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12.Proxy Pattern(代理模�
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Behavioral Patterns(行为型模式)", "3-Behavioral Patterns(行为型模式)", "{B6BD130F-C247-4DD9-AE0A-4FCBF55DA5E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{7961F97A-F895-4239-8E24-ED11ABFF48A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{7961F97A-F895-4239-8E24-ED11ABFF48A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{DB4F67AD-B892-4ED3-9116-F88DF9C722E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13.Template Method（模版方法模式）", "13.Template Method（模版方法模式）", "{F3573F9B-4D78-4DF1-9A03-CEC236DDF6BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16.Observer(观察者模式)", "16.Observer(观察者模式)", "{D48EAFC3-DFB8-45BE-B342-D731DDE106F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14.Command Pattern(命令模式)", "14.Command Pattern(命令模式)", "{37A2850C-C48B-4717-BECE-C23B9F09A578}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodPattern", "TemplateMethodPattern\TemplateMethodPattern.csproj", "{3B2CEF1F-B2E3-495B-8944-49B0614F35D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -92,6 +102,14 @@ Global
 		{7961F97A-F895-4239-8E24-ED11ABFF48A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7961F97A-F895-4239-8E24-ED11ABFF48A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7961F97A-F895-4239-8E24-ED11ABFF48A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB4F67AD-B892-4ED3-9116-F88DF9C722E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB4F67AD-B892-4ED3-9116-F88DF9C722E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB4F67AD-B892-4ED3-9116-F88DF9C722E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB4F67AD-B892-4ED3-9116-F88DF9C722E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B2CEF1F-B2E3-495B-8944-49B0614F35D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B2CEF1F-B2E3-495B-8944-49B0614F35D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B2CEF1F-B2E3-495B-8944-49B0614F35D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B2CEF1F-B2E3-495B-8944-49B0614F35D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -117,6 +135,11 @@ Global
 		{DBD8FDC0-8E5D-4EA8-9C7D-0521E6D1A80A} = {AAF4CE2C-0FBC-4801-A764-24D218B822AA}
 		{CA8AEF0E-EBC2-477D-90A9-497A8319D711} = {AAF4CE2C-0FBC-4801-A764-24D218B822AA}
 		{7961F97A-F895-4239-8E24-ED11ABFF48A9} = {FA270A73-3BBB-455E-9399-5CF7DE6D2F60}
+		{DB4F67AD-B892-4ED3-9116-F88DF9C722E1} = {CA8AEF0E-EBC2-477D-90A9-497A8319D711}
+		{F3573F9B-4D78-4DF1-9A03-CEC236DDF6BC} = {B6BD130F-C247-4DD9-AE0A-4FCBF55DA5E2}
+		{D48EAFC3-DFB8-45BE-B342-D731DDE106F1} = {B6BD130F-C247-4DD9-AE0A-4FCBF55DA5E2}
+		{37A2850C-C48B-4717-BECE-C23B9F09A578} = {B6BD130F-C247-4DD9-AE0A-4FCBF55DA5E2}
+		{3B2CEF1F-B2E3-495B-8944-49B0614F35D2} = {F3573F9B-4D78-4DF1-9A03-CEC236DDF6BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4D925921-D271-4A0E-94F1-35E2259CA60D}
