@@ -24,7 +24,7 @@
 - 13.Template Method Pattern(模版方法模式)
 - 14.Command Pattern(命令模式)
 - 15迭代器模式
-- 16.Observer(观察者模式)
+- 16.Observer Pattern(观察者模式)
 - 17中介者模式
 - 18备忘录模式
 - 19解释器模式

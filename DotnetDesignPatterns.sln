@@ -58,11 +58,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern", "ProxyPatter
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13.Template Method（模版方法模式）", "13.Template Method（模版方法模式）", "{F3573F9B-4D78-4DF1-9A03-CEC236DDF6BC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16.Observer(观察者模式)", "16.Observer(观察者模式)", "{D48EAFC3-DFB8-45BE-B342-D731DDE106F1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16.Observer Pattern(观察者模式)", "16.Observer Pattern(观察者模式)", "{D48EAFC3-DFB8-45BE-B342-D731DDE106F1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14.Command Pattern(命令模式)", "14.Command Pattern(命令模式)", "{37A2850C-C48B-4717-BECE-C23B9F09A578}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodPattern", "TemplateMethodPattern\TemplateMethodPattern.csproj", "{3B2CEF1F-B2E3-495B-8944-49B0614F35D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{3A0987D4-4220-4A48-8A03-6B89EA5EB4E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -110,6 +112,10 @@ Global
 		{3B2CEF1F-B2E3-495B-8944-49B0614F35D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B2CEF1F-B2E3-495B-8944-49B0614F35D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B2CEF1F-B2E3-495B-8944-49B0614F35D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A0987D4-4220-4A48-8A03-6B89EA5EB4E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A0987D4-4220-4A48-8A03-6B89EA5EB4E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A0987D4-4220-4A48-8A03-6B89EA5EB4E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A0987D4-4220-4A48-8A03-6B89EA5EB4E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -140,6 +146,7 @@ Global
 		{D48EAFC3-DFB8-45BE-B342-D731DDE106F1} = {B6BD130F-C247-4DD9-AE0A-4FCBF55DA5E2}
 		{37A2850C-C48B-4717-BECE-C23B9F09A578} = {B6BD130F-C247-4DD9-AE0A-4FCBF55DA5E2}
 		{3B2CEF1F-B2E3-495B-8944-49B0614F35D2} = {F3573F9B-4D78-4DF1-9A03-CEC236DDF6BC}
+		{3A0987D4-4220-4A48-8A03-6B89EA5EB4E5} = {37A2850C-C48B-4717-BECE-C23B9F09A578}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4D925921-D271-4A0E-94F1-35E2259CA60D}
